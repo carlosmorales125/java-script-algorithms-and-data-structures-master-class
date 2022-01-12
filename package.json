@@ -1,0 +1,12 @@
+{
+  "name": "java-script-algorithms-and-data-structures-master-class",
+  "version": "1.0.0",
+  "description": "",
+  "main": "charCountInString.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
