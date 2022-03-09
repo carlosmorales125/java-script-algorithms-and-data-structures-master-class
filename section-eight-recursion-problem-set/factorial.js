@@ -17,8 +17,11 @@ const factorial = (f) => {
     }
 };
 
+const factorialRefactor = (f) => f === 0 ? 1 : f * factorialRefactor((f - 1));
+
 console.log(factorial(1));
 console.log(factorial(2));
 console.log(factorial(4));
 console.log(factorial(7));
+console.log(factorialRefactor(7));
 console.log(factorial(0));
